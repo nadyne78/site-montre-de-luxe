@@ -1,0 +1,142 @@
+@media screen and (max-width: 768px) {
+	#featured-watches{
+		flex-direction:column;
+	}
+}
+
+
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de la barre de navigation */
+header {
+    background-color:rgb(131, 123, 10);
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+/* Style de la section de l'en-tête */
+#header-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color:black;
+}
+
+#header-section img {
+    max-width: 200px;
+    height: auto;
+}
+#header-section p{
+    color:rgb(131, 123, 10);
+}
+h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Style de la section des montres en vedette */
+#featured-watches {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.watch {
+    flex: 0 0 calc(30% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color:#fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.watch:last-child {
+    margin-right: 0;
+}
+
+.watch:hover {
+    transform: translateY(-5px);
+}
+
+
+.watch img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style de la section des boutiques partenaires */
+#boutiques-partenaires {
+    margin: 20px;
+
+}
+
+#boutiques-partenaires h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#boutiques-partenaires ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#boutiques-partenaires li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    
+}
+#boutiques-partenaires{
+    
+        margin: 0; 
+        padding: 20px 0; 
+        background-color:rgb(131, 123, 10); /* Couleur de fond pour la section des boutiques partenaires */
+    
+}
+
+/* Style du pied de page */
+footer {
+    background-color:black; /* Couleur de fond pour le footer */
+    color:#FFD700;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.8rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
